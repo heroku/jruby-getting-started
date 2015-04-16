@@ -1,22 +1,8 @@
-# ruby-getting-started
+# ruby-getting-started (Microsoft Windows)
 
-A barebones Rails app, which can easily be deployed to Heroku.
+A barebones Rails app, which can easily be deployed to Heroku - on Microsoft Windows.
 
-This application support the [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
-
-## Running Locally
-
-Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
-```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
-$ cd ruby-getting-started
-$ bundle install
-$ rake db:create db:migrate
-$ foreman start web
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+This application support the [Getting Started with Ruby on Heroku (Microsoft Windows)](https://devcenter.heroku.com/articles/getting-started-with-jruby) article - check it out.
 
 ## Deploying to Heroku
 
