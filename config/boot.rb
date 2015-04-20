@@ -11,9 +11,7 @@ java_import java.security.NoSuchAlgorithmException
 is_unlimited_jce = true
 begin
   strength = Cipher.getMaxAllowedKeyLength("AES")
-  if strength <= 128
-    is_unlimited_jce = false
-  end
+  is_unlimited_jce = strength > 128
 rescue NoSuchAlgorithmException => nsae
   is_unlimited_jce = false
 ensure
