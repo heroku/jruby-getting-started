@@ -16,7 +16,6 @@ rescue NoSuchAlgorithmException => nsae
   is_unlimited_jce = false
 ensure
   unless is_unlimited_jce
-    puts "WARNING: Disabling strong encryption because Unlimited JCE is not installed!"
     security_class = java.lang.Class.for_name('javax.crypto.JceSecurity')
     restricted_field = security_class.get_declared_field('isRestricted')
     restricted_field.accessible = true
