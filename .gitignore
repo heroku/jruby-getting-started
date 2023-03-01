@@ -16,3 +16,5 @@
 /log/*.log
 /tmp
 /bin
+
+.DS_Store
