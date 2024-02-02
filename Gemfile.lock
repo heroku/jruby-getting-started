@@ -130,9 +130,9 @@ GEM
       net-protocol
     nio4r (2.5.9)
     nio4r (2.5.9-java)
-    nokogiri (1.14.2-java)
+    nokogiri (1.14.3-java)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-linux)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.0)
       stringio
