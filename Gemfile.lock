@@ -219,6 +219,7 @@ GEM
 PLATFORMS
   java
   universal-java-19
+  universal-java-22
   x86_64-linux
 
 DEPENDENCIES
@@ -237,7 +238,7 @@ DEPENDENCIES
   uglifier
 
 RUBY VERSION
-   ruby 3.1.0p0 (jruby 9.4.1.0)
+   ruby 3.1.4p0 (jruby 9.4.7.0)
 
 BUNDLED WITH
    2.4.7
