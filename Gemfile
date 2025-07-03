@@ -1,16 +1,13 @@
 source 'https://rubygems.org'
 
-ruby '3.1.0', engine: 'jruby', engine_version: '9.4.1.0'
+ruby '3.1.4', engine: 'jruby', engine_version: '9.4.13.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.0.4.3'
+gem 'rails', '~> 7.2.2.1'
 
 # Use postgresql as the database for Active Record
-#
-# Gem version 70.0 is not yet released due to https://github.com/jruby/activerecord-jdbc-adapter/issues/1125#issuecomment-1450912800
-# once merged, revert back to using gems from Rubygems.
-gem 'activerecord-jdbcpostgresql-adapter'
-gem 'activerecord-jdbc-adapter'
+gem 'activerecord-jdbc-adapter', :github => 'jruby/activerecord-jdbc-adapter', branch: '72-stable'
+gem 'activerecord-jdbcpostgresql-adapter', :github => 'jruby/activerecord-jdbc-adapter', branch: '72-stable'
 
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -35,3 +32,5 @@ gem 'sdoc',          group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+
+gem "zeitwerk", "~> 2.6.18"
